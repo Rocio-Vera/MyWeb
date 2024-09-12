@@ -1,0 +1,45 @@
+2024-09-11 20:25:43.861 [info] [main] Log level: Info
+2024-09-11 20:25:43.861 [info] [main] Validating found git in: "git"
+2024-09-11 20:25:43.861 [info] [main] Using git "2.34.1" from "git"
+2024-09-11 20:25:43.861 [info] [Model][doInitialScan] Initial repository scan started
+2024-09-11 20:25:43.861 [info] > git rev-parse --show-toplevel [6ms]
+2024-09-11 20:25:43.861 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-09-11 20:25:43.861 [info] > git rev-parse --show-toplevel [14ms]
+2024-09-11 20:25:43.861 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-09-11 20:25:43.861 [warning] [Model][traverseWorkspaceFolder] Unable to read workspace folder '/lost+found': Error: EACCES: permission denied, scandir '/lost+found'
+2024-09-11 20:25:43.867 [warning] [Model][traverseWorkspaceFolder] Unable to read workspace folder '/root': Error: EACCES: permission denied, scandir '/root'
+2024-09-11 20:25:43.888 [info] > git rev-parse --show-toplevel [2ms]
+2024-09-11 20:25:43.888 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-09-11 20:25:43.897 [info] > git rev-parse --show-toplevel [1ms]
+2024-09-11 20:25:43.897 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-09-11 20:25:43.904 [info] > git rev-parse --show-toplevel [1ms]
+2024-09-11 20:25:43.904 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-09-11 20:25:43.912 [info] > git rev-parse --show-toplevel [2ms]
+2024-09-11 20:25:43.912 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-09-11 20:25:43.916 [info] > git rev-parse --show-toplevel [1ms]
+2024-09-11 20:25:43.916 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-09-11 20:25:43.921 [info] > git rev-parse --show-toplevel [3ms]
+2024-09-11 20:25:43.921 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-09-11 20:25:43.936 [info] > git rev-parse --show-toplevel [1ms]
+2024-09-11 20:25:43.936 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-09-11 20:25:43.964 [info] > git rev-parse --show-toplevel [5ms]
+2024-09-11 20:25:43.964 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-09-11 20:25:43.969 [info] > git rev-parse --show-toplevel [1ms]
+2024-09-11 20:25:43.969 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-09-11 20:25:43.976 [info] > git rev-parse --show-toplevel [2ms]
+2024-09-11 20:25:43.976 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-09-11 20:25:43.981 [info] > git rev-parse --show-toplevel [2ms]
+2024-09-11 20:25:43.981 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-09-11 20:25:43.987 [info] > git rev-parse --show-toplevel [3ms]
+2024-09-11 20:25:43.987 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-09-11 20:25:43.994 [info] > git rev-parse --show-toplevel [3ms]
+2024-09-11 20:25:43.994 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-09-11 20:25:43.999 [info] > git rev-parse --show-toplevel [1ms]
+2024-09-11 20:25:43.999 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-09-11 20:25:44.005 [info] > git rev-parse --show-toplevel [2ms]
+2024-09-11 20:25:44.005 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-09-11 20:25:44.016 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)

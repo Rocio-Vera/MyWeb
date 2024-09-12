@@ -1,0 +1,343 @@
+2024-09-06 08:42:56.859 [info] Extension host with pid 33099 started
+2024-09-06 08:42:56.859 [info] Eager extensions activated
+2024-09-06 08:42:56.960 [info] Lock '/home/rocio-micaela/.vscode-server/data/User/workspaceStorage/ba82dfa1caaeaff928e97b75688b36c8/vscode.lock': Lock acquired.
+2024-09-06 08:42:58.433 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-09-06 08:42:58.434 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: false, activationEvent: '*', root cause: vscode.git
+2024-09-06 08:42:58.435 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-09-06 08:42:58.568 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: '*'
+2024-09-06 08:42:58.569 [info] ExtensionService#_doActivateExtension vscode.github, startup: false, activationEvent: '*'
+2024-09-06 08:42:59.053 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-09-06 08:42:59.204 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1350
+2024-09-06 08:42:59.813 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1350
+2024-09-06 08:43:00.257 [error] Error: No such branch: master.
+	at N.getBranch (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:937115)
+	at async T.retryRun (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032816)
+	at async T.run (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032420)
+	at async T.getBranch (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020563)
+	at async T.getBranchBase (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020849)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:948410)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:941737)
+2024-09-06 08:43:00.830 [error] Error: No such branch: master.
+	at N.getBranch (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:937115)
+	at async T.retryRun (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032816)
+	at async T.run (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032420)
+	at async T.getBranch (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020563)
+	at async T.getBranchBase (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020849)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:948410)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:941737)
+2024-09-06 08:43:03.388 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1350
+2024-09-06 08:43:03.632 [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+2024-09-06 08:43:04.392 [error] Error: No such branch: master.
+	at N.getBranch (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:937115)
+	at async T.retryRun (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032816)
+	at async T.run (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032420)
+	at async T.getBranch (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020563)
+	at async T.getBranchBase (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020849)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:948410)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:941737)
+2024-09-06 08:43:08.487 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1351
+2024-09-06 08:43:09.496 [error] Error: No such branch: master.
+	at N.getBranch (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:937115)
+	at async T.retryRun (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032816)
+	at async T.run (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032420)
+	at async T.getBranch (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020563)
+	at async T.getBranchBase (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020849)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:948410)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:941737)
+2024-09-06 08:45:10.121 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1351
+2024-09-06 08:45:11.496 [error] Error: No such branch: master.
+	at N.getBranch (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:937115)
+	at async T.retryRun (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032816)
+	at async T.run (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032420)
+	at async T.getBranch (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020563)
+	at async T.getBranchBase (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020849)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:948410)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:941737)
+2024-09-06 08:45:15.307 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1351
+2024-09-06 08:45:16.315 [error] Error: No such branch: master.
+	at N.getBranch (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:937115)
+	at async T.retryRun (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032816)
+	at async T.run (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032420)
+	at async T.getBranch (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020563)
+	at async T.getBranchBase (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020849)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:948410)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:941737)
+2024-09-06 08:45:23.807 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1351
+2024-09-06 08:45:24.817 [error] Error: No such branch: master.
+	at N.getBranch (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:937115)
+	at async T.retryRun (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032816)
+	at async T.run (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032420)
+	at async T.getBranch (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020563)
+	at async T.getBranchBase (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020849)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:948410)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:941737)
+2024-09-06 08:45:28.931 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1351
+2024-09-06 08:45:29.943 [error] Error: No such branch: master.
+	at N.getBranch (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:937115)
+	at async T.retryRun (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032816)
+	at async T.run (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032420)
+	at async T.getBranch (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020563)
+	at async T.getBranchBase (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020849)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:948410)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:941737)
+2024-09-06 08:45:33.996 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1351
+2024-09-06 08:45:35.003 [error] Error: No such branch: master.
+	at N.getBranch (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:937115)
+	at async T.retryRun (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032816)
+	at async T.run (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032420)
+	at async T.getBranch (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020563)
+	at async T.getBranchBase (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020849)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:948410)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:941737)
+2024-09-06 08:45:39.050 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1351
+2024-09-06 08:45:40.062 [error] Error: No such branch: master.
+	at N.getBranch (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:937115)
+	at async T.retryRun (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032816)
+	at async T.run (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032420)
+	at async T.getBranch (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020563)
+	at async T.getBranchBase (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020849)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:948410)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:941737)
+2024-09-06 08:45:44.132 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1351
+2024-09-06 08:45:45.137 [error] Error: No such branch: master.
+	at N.getBranch (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:937115)
+	at async T.retryRun (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032816)
+	at async T.run (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032420)
+	at async T.getBranch (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020563)
+	at async T.getBranchBase (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020849)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:948410)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:941737)
+2024-09-06 08:45:49.868 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1351
+2024-09-06 08:45:50.876 [error] Error: No such branch: master.
+	at N.getBranch (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:937115)
+	at async T.retryRun (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032816)
+	at async T.run (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032420)
+	at async T.getBranch (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020563)
+	at async T.getBranchBase (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020849)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:948410)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:941737)
+2024-09-06 08:45:55.926 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1351
+2024-09-06 08:45:56.929 [error] Error: No such branch: master.
+	at N.getBranch (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:937115)
+	at async T.retryRun (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032816)
+	at async T.run (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032420)
+	at async T.getBranch (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020563)
+	at async T.getBranchBase (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020849)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:948410)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:941737)
+2024-09-06 08:46:01.004 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1351
+2024-09-06 08:46:02.013 [error] Error: No such branch: master.
+	at N.getBranch (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:937115)
+	at async T.retryRun (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032816)
+	at async T.run (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032420)
+	at async T.getBranch (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020563)
+	at async T.getBranchBase (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020849)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:948410)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:941737)
+2024-09-06 08:46:06.068 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1351
+2024-09-06 08:46:07.072 [error] Error: No such branch: master.
+	at N.getBranch (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:937115)
+	at async T.retryRun (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032816)
+	at async T.run (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032420)
+	at async T.getBranch (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020563)
+	at async T.getBranchBase (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020849)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:948410)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:941737)
+2024-09-06 08:46:11.180 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1351
+2024-09-06 08:46:12.193 [error] Error: No such branch: master.
+	at N.getBranch (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:937115)
+	at async T.retryRun (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032816)
+	at async T.run (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032420)
+	at async T.getBranch (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020563)
+	at async T.getBranchBase (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020849)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:948410)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:941737)
+2024-09-06 08:46:16.277 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1351
+2024-09-06 08:46:17.289 [error] Error: No such branch: master.
+	at N.getBranch (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:937115)
+	at async T.retryRun (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032816)
+	at async T.run (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032420)
+	at async T.getBranch (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020563)
+	at async T.getBranchBase (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020849)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:948410)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:941737)
+2024-09-06 08:46:21.352 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1351
+2024-09-06 08:46:22.359 [error] Error: No such branch: master.
+	at N.getBranch (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:937115)
+	at async T.retryRun (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032816)
+	at async T.run (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032420)
+	at async T.getBranch (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020563)
+	at async T.getBranchBase (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020849)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:948410)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:941737)
+2024-09-06 08:46:26.425 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1351
+2024-09-06 08:46:27.451 [error] Error: No such branch: master.
+	at N.getBranch (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:937115)
+	at async T.retryRun (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032816)
+	at async T.run (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032420)
+	at async T.getBranch (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020563)
+	at async T.getBranchBase (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020849)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:948410)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:941737)
+2024-09-06 08:46:31.534 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1351
+2024-09-06 08:46:32.552 [error] Error: No such branch: master.
+	at N.getBranch (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:937115)
+	at async T.retryRun (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032816)
+	at async T.run (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032420)
+	at async T.getBranch (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020563)
+	at async T.getBranchBase (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020849)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:948410)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:941737)
+2024-09-06 08:46:36.939 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1351
+2024-09-06 08:46:37.948 [error] Error: No such branch: master.
+	at N.getBranch (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:937115)
+	at async T.retryRun (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032816)
+	at async T.run (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032420)
+	at async T.getBranch (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020563)
+	at async T.getBranchBase (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020849)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:948410)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:941737)
+2024-09-06 08:48:14.287 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1351
+2024-09-06 08:48:15.315 [error] Error: No such branch: master.
+	at N.getBranch (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:937115)
+	at async T.retryRun (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032816)
+	at async T.run (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032420)
+	at async T.getBranch (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020563)
+	at async T.getBranchBase (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020849)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:948410)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:941737)
+2024-09-06 08:48:19.361 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1351
+2024-09-06 08:48:20.375 [error] Error: No such branch: master.
+	at N.getBranch (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:937115)
+	at async T.retryRun (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032816)
+	at async T.run (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032420)
+	at async T.getBranch (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020563)
+	at async T.getBranchBase (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020849)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:948410)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:941737)
+2024-09-06 08:48:24.495 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1351
+2024-09-06 08:48:25.519 [error] Error: No such branch: master.
+	at N.getBranch (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:937115)
+	at async T.retryRun (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032816)
+	at async T.run (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032420)
+	at async T.getBranch (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020563)
+	at async T.getBranchBase (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020849)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:948410)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:941737)
+2024-09-06 08:48:29.567 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1351
+2024-09-06 08:48:30.573 [error] Error: No such branch: master.
+	at N.getBranch (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:937115)
+	at async T.retryRun (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032816)
+	at async T.run (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032420)
+	at async T.getBranch (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020563)
+	at async T.getBranchBase (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020849)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:948410)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:941737)
+2024-09-06 08:48:34.625 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1351
+2024-09-06 08:48:35.631 [error] Error: No such branch: master.
+	at N.getBranch (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:937115)
+	at async T.retryRun (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032816)
+	at async T.run (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032420)
+	at async T.getBranch (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020563)
+	at async T.getBranchBase (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020849)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:948410)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:941737)
+2024-09-06 08:49:48.933 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1351
+2024-09-06 08:49:49.959 [error] Error: No such branch: master.
+	at N.getBranch (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:937115)
+	at async T.retryRun (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032816)
+	at async T.run (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032420)
+	at async T.getBranch (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020563)
+	at async T.getBranchBase (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020849)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:948410)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:941737)
+2024-09-06 08:49:54.812 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1351
+2024-09-06 08:49:55.826 [error] Error: No such branch: master.
+	at N.getBranch (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:937115)
+	at async T.retryRun (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032816)
+	at async T.run (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032420)
+	at async T.getBranch (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020563)
+	at async T.getBranchBase (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020849)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:948410)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:941737)
+2024-09-06 08:49:59.870 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1351
+2024-09-06 08:50:00.884 [error] Error: No such branch: master.
+	at N.getBranch (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:937115)
+	at async T.retryRun (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032816)
+	at async T.run (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032420)
+	at async T.getBranch (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020563)
+	at async T.getBranchBase (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020849)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:948410)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:941737)
+2024-09-06 08:50:04.920 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1351
+2024-09-06 08:50:05.929 [error] Error: No such branch: master.
+	at N.getBranch (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:937115)
+	at async T.retryRun (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032816)
+	at async T.run (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032420)
+	at async T.getBranch (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020563)
+	at async T.getBranchBase (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020849)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:948410)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:941737)
+2024-09-06 08:50:23.225 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1351
+2024-09-06 08:50:24.234 [error] Error: No such branch: master.
+	at N.getBranch (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:937115)
+	at async T.retryRun (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032816)
+	at async T.run (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032420)
+	at async T.getBranch (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020563)
+	at async T.getBranchBase (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020849)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:948410)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:941737)
+2024-09-06 08:50:28.297 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1351
+2024-09-06 08:50:29.303 [error] Error: No such branch: master.
+	at N.getBranch (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:937115)
+	at async T.retryRun (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032816)
+	at async T.run (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032420)
+	at async T.getBranch (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020563)
+	at async T.getBranchBase (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020849)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:948410)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:941737)
+2024-09-06 08:50:33.338 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1351
+2024-09-06 08:50:34.348 [error] Error: No such branch: master.
+	at N.getBranch (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:937115)
+	at async T.retryRun (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032816)
+	at async T.run (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032420)
+	at async T.getBranch (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020563)
+	at async T.getBranchBase (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020849)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:948410)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:941737)
+2024-09-06 08:50:38.434 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1351
+2024-09-06 08:50:39.440 [error] Error: No such branch: master.
+	at N.getBranch (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:937115)
+	at async T.retryRun (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032816)
+	at async T.run (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032420)
+	at async T.getBranch (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020563)
+	at async T.getBranchBase (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020849)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:948410)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:941737)
+2024-09-06 08:50:43.507 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1351
+2024-09-06 08:50:44.513 [error] Error: No such branch: master.
+	at N.getBranch (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:937115)
+	at async T.retryRun (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032816)
+	at async T.run (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032420)
+	at async T.getBranch (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020563)
+	at async T.getBranchBase (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020849)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:948410)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:941737)
+2024-09-06 17:50:52.400 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1351
+2024-09-06 17:50:55.121 [error] Error: No such branch: master.
+	at N.getBranch (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:937115)
+	at async T.retryRun (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032816)
+	at async T.run (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032420)
+	at async T.getBranch (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020563)
+	at async T.getBranchBase (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020849)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:948410)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:941737)
+2024-09-06 23:27:04.760 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1351
+2024-09-06 23:27:07.290 [error] Error: No such branch: master.
+	at N.getBranch (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:937115)
+	at async T.retryRun (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032816)
+	at async T.run (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032420)
+	at async T.getBranch (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020563)
+	at async T.getBranchBase (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020849)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:948410)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/rocio-micaela/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:941737)

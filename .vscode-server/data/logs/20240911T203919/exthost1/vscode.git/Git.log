@@ -1,0 +1,40 @@
+2024-09-11 20:39:25.092 [info] [main] Log level: Info
+2024-09-11 20:39:25.092 [info] [main] Validating found git in: "git"
+2024-09-11 20:39:25.092 [info] [main] Using git "2.34.1" from "git"
+2024-09-11 20:39:25.092 [info] [Model][doInitialScan] Initial repository scan started
+2024-09-11 20:39:25.092 [info] > git rev-parse --show-toplevel [59ms]
+2024-09-11 20:39:25.092 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (1), unsafe repositories (0)
+2024-09-11 20:52:02.479 [info] > git rev-parse --show-toplevel [163ms]
+2024-09-11 22:28:13.604 [info] > git rev-parse --show-toplevel [26ms]
+2024-09-11 22:28:13.627 [info] > git rev-parse --git-dir --git-common-dir [3ms]
+2024-09-11 22:28:13.780 [info] [Model][openRepository] Opened repository: /home/rocio-micaela/proyectoPersonal
+2024-09-11 22:28:13.818 [info] > git config --get commit.template [4ms]
+2024-09-11 22:28:13.829 [info] [Git][getRemotes] No remotes found in the git config file
+2024-09-11 22:28:13.831 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [5ms]
+2024-09-11 22:28:13.835 [warning] [Git][getBranch] No such branch: master
+2024-09-11 22:28:13.856 [info] > git status -z -uall [14ms]
+2024-09-11 22:28:13.998 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [118ms]
+2024-09-11 22:28:13.999 [warning] [Git][getBranch] No such branch: master
+2024-09-11 22:28:14.012 [info] > git config --get commit.template [17ms]
+2024-09-11 22:28:14.025 [info] [Git][getRemotes] No remotes found in the git config file
+2024-09-11 22:28:14.035 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [11ms]
+2024-09-11 22:28:14.035 [warning] [Git][getBranch] No such branch: master
+2024-09-11 22:28:14.047 [info] > git status -z -uall [1ms]
+2024-09-11 22:28:14.070 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [11ms]
+2024-09-11 22:28:14.070 [warning] [Git][getBranch] No such branch: master
+2024-09-11 22:28:15.168 [info] > git show --textconv :web.html [12ms]
+2024-09-11 22:28:15.169 [info] > git ls-files --stage -- /home/rocio-micaela/proyectoPersonal/web.html [5ms]
+2024-09-11 22:28:15.565 [info] > git check-ignore -v -z --stdin [69ms]
+2024-09-11 23:39:45.798 [info] > git config --get commit.template [39ms]
+2024-09-11 23:39:45.803 [info] [Git][getRemotes] No remotes found in the git config file
+2024-09-11 23:39:45.819 [info] > git ls-files --stage -- /home/rocio-micaela/proyectoPersonal/web.html [61ms]
+2024-09-11 23:39:45.827 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [12ms]
+2024-09-11 23:39:45.850 [info] > git cat-file -s c64c25bd0d1680082f7a3f4031587b1bf3cd777b [20ms]
+2024-09-11 23:39:45.856 [info] > git status -z -uall [14ms]
+2024-09-11 23:39:45.909 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [32ms]
+2024-09-11 23:39:45.920 [info] > git show --textconv :web.html [12ms]
+2024-09-11 23:39:45.924 [info] > git config --local branch.master.vscode-merge-base [4ms]
+2024-09-11 23:39:45.925 [warning] [Git][config] git config failed: Failed to execute git
+2024-09-11 23:39:45.946 [info] > git reflog master --grep-reflog=branch: Created from *. [12ms]
+2024-09-11 23:39:45.964 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [5ms]
+2024-09-11 23:39:45.964 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
